@@ -1,0 +1,42 @@
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Dependencies and generated output
+node_modules/
+dist/
+dist-ssr/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local AI/agent tooling and temporary data
+.agents/
+.codex/
+.claude/
+.cursor/
+uploads/
+tmp/
+*.dump
+*.sqlite
+*.sqlite3
